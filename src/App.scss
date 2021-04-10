@@ -14,14 +14,15 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-image: url(https://www.geeklawblog.com/wp-content/uploads/sites/528/2018/12/liprofile-656x369.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
 .App-link {
@@ -35,4 +36,13 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.Container {
+  // background-image: url("https://shreya22dhumal.files.wordpress.com/2015/09/hospital.jpg");
+  // background-repeat: no-repeat;
+  // background-size: cover;
+  width: 100%;
+  height: 100%;
+  background-color: blue;
 }

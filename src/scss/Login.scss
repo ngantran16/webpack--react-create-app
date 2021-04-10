@@ -1,0 +1,44 @@
+@import '../variables.scss';
+
+@mixin borderVsWidthHeight($border, $width, $height) {
+    border-radius: $border;
+    width: $width;
+    height: $height; 
+}
+
+.login-form {
+    @include borderVsWidthHeight(20px, 25% , auto);
+    padding: 20px;
+    background-color: $white-color;
+}
+
+.input-field {
+    @include borderVsWidthHeight(20px, 90%, 35px);
+    border: 1px solid gray;
+    margin: 15px;
+}
+
+.forgot-link {
+    text-align: right;
+    display: block;
+    text-decoration: none;
+    font-size: 12px;
+    margin-right: 20px;
+}
+
+.btn-sign-in {
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: $secondary-color;
+    font-size: 16;
+    color: $white-color;
+    margin-top: 10px;
+    width: 90px;
+    font-weight: bold;
+}
+
+.img-user {
+    width: 35%;
+    height: 35%;
+}
